@@ -19,6 +19,8 @@ public class GoogleSearch {
 	
 	PropertiesReader obj=new PropertiesReader();
 	
+	
+	
 	@Given("^open browser$")
 	public void open_chrome_browser_and_enter_url() throws Throwable 
 	{
